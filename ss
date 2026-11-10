@@ -1,0 +1,335 @@
+{
+  "_v2rayN | Throne | OneXray": [
+    "Please keep the Xray core and your v2ray client up to date; some clients may be incompatible",
+    "Use MASQUE with official endpoints or official clients only; third-party resources may cause privacy leaks or losses",
+    "This config is completely free! Beware of scams, and share it with your friends!",
+    "For technical research only. Delete the config after 24 hours; any other use is prohibited!",
+    "Website - https://darknessshade.github.io/Masque-Generator/",
+    "Telegram - https://t.me/ConfigWireguard"
+  ],
+  "log": {
+    "loglevel": "warning"
+  },
+  "outbounds": [
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "162.159.198.2",
+        "port": 8095,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | Official | 162.159.198.2 | 8095 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "162.159.199.2",
+        "port": 8095,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | Official | 162.159.199.2 | 8095 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "masque1.bestcf.eu.cc",
+        "port": 443,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | Backup | masque1.bestcf.eu.cc | 443 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "masque2.bestcf.eu.cc",
+        "port": 443,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | Backup | masque2.bestcf.eu.cc | 443 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "162.159.198.2",
+        "port": 443,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | Official | 162.159.198.2 | 443 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "2606:4700:103::2",
+        "port": 8095,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | Official IPv6 | 2606:4700:103::2 | 8095 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "2606:4700:104::2",
+        "port": 8095,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | Official IPv6 | 2606:4700:104::2 | 8095 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "us.v6.free.bestcf.eu.cc",
+        "port": 443,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | US 🇺🇸 IPv6 | us.v6.free.bestcf.eu.cc | 443 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "2602:fc59:b0:64::a29f:c601",
+        "port": 443,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | US 🇺🇸 IPv6 | 2602:fc59:b0:64::a29f:c601 | 443 | MASQUE Nav"
+    },
+    {
+      "protocol": "masque",
+      "settings": {
+        "address": "2602:fc59:b0:64::a29f:c602",
+        "port": 443,
+        "remoteDNS": [
+          "1.1.1.1",
+          "8.8.8.8"
+        ]
+      },
+      "streamSettings": {
+        "method": "masque",
+        "masqueSettings": {
+          "warp": {
+            "privateKey": "MHcCAQEEIDIIYa8xQG8qw266soNndMAqIqwbssre+Ogy+vh5/g1eoAoGCCqGSM49AwEHoUQDQgAEjBYn3Ek08+raTPsMiatkFO0g3wxkrq9Tp9aOv1pjLiEtTGvyahf45NfWgQ8mAbl+/LKNjxKvP7/5l+gxwQ2vmg==",
+            "publicKey": "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEIaU7MToJm9NKp8YfGxR6r+/h4mcG7SxI8tsW8OR1A5tv/zCzVbCRRh2t87/kxnP6lAy0lkr7qYwu+ox+k3dr6w==",
+            "address": [
+              "172.16.0.2/32",
+              "2606:4700:110:8ccb:a60:34dc:b6fb:ebb3/128"
+            ]
+          }
+        },
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.cloudflare.com",
+          "alpn": [
+            "h2"
+          ]
+        }
+      },
+      "tag": "H2 | US 🇺🇸 IPv6 | 2602:fc59:b0:64::a29f:c602 | 443 | MASQUE Nav"
+    }
+  ]
+}
